@@ -17,7 +17,6 @@ interface Cart {
 const Checkout = () => {
   const navigate = useNavigate();
   const [carts, setCarts] = useState<Cart[]>([]);
-  console.log('cart: ', carts);
 
   useEffect(() => {
     axios.get('/cart/getAll').then((res) => setCarts(res.data));
