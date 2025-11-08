@@ -24,7 +24,6 @@ const Login = () => {
     const res = await axios.post('/auth/login', { email, password });
     if (res.data.access_token) {
       localStorage.setItem('token', res.data.access_token);
-      localStorage.setItem('userId', res.data.userId);
       navigate('/shop');
     }
   };
@@ -159,9 +158,9 @@ const Login = () => {
             - OR Continue with -
           </Typography>
           <Box sx={{ display: 'flex', mt: '16px', gap: '10px' }}>
-            <img src="/public/assets/socialLogin/google.png" alt="google-login" />
-            <img src="/public/assets/socialLogin/apple.png" alt="apple-login" />
-            <img src="/public/assets/socialLogin/facebook.png" alt="facebook-login" />
+            <img src="/assets/socialLogin/google.png" alt="google-login" />
+            <img src="/assets/socialLogin/apple.png" alt="apple-login" />
+            <img src="/assets/socialLogin/facebook.png" alt="facebook-login" />
           </Box>
           <Box sx={{ display: 'flex', alignItems: 'center', mt: '30px' }}>
             <Typography
