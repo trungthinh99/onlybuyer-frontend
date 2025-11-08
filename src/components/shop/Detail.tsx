@@ -34,9 +34,9 @@ const ProductDetail = ({ id, name, price = 0, description, onAddToCart }: Produc
       <Box sx={{ display: 'flex', alignItems: 'center', gap: '8px', mt: '4px', ml: '-2px' }}>
         <Box sx={{ display: 'flex', gap: '1px' }}>
           {[1, 2, 3, 4].map((_, index) => (
-            <img key={index} src="/public/assets/ic-star.png" alt="star-filled" />
+            <img key={index} src="/assets/ic-star.png" alt="star-filled" />
           ))}
-          <img src="/public/assets/ic-half-star.png" alt="star-empty" />
+          <img src="/assets/ic-half-star.png" alt="star-empty" />
         </Box>
         <Typography
           sx={{
@@ -105,7 +105,7 @@ const ProductDetail = ({ id, name, price = 0, description, onAddToCart }: Produc
             border: '1px solid #828282',
           }}
         >
-          <img src="/public/assets/ic-location.png" alt="location" />
+          <img src="/assets/ic-location.png" alt="location" />
           <Typography
             sx={{
               fontSize: '10px',
@@ -126,7 +126,7 @@ const ProductDetail = ({ id, name, price = 0, description, onAddToCart }: Produc
             border: '1px solid #828282',
           }}
         >
-          <img src="/public/assets/ic-lock.png" alt="location" />
+          <img src="/assets/ic-lock.png" alt="location" />
           <Typography
             sx={{
               fontSize: '10px',
@@ -147,7 +147,7 @@ const ProductDetail = ({ id, name, price = 0, description, onAddToCart }: Produc
             border: '1px solid #828282',
           }}
         >
-          <img src="/public/assets/ic-return.png" alt="location" />
+          <img src="/assets/ic-return.png" alt="location" />
           <Typography
             sx={{
               fontSize: '10px',
@@ -163,7 +163,7 @@ const ProductDetail = ({ id, name, price = 0, description, onAddToCart }: Produc
       {/* Go to cart */}
       <Box sx={{ display: 'flex', gap: '8px', mt: '10px' }}>
         <img
-          src="/public/assets/go-cart.png"
+          src="/assets/go-cart.png"
           alt="cart"
           height={40}
           width={'auto'}
@@ -171,7 +171,7 @@ const ProductDetail = ({ id, name, price = 0, description, onAddToCart }: Produc
             onAddToCart(id);
           }}
         />
-        <img src="/public/assets/buy-now.png" alt="buy" height={40} width={'auto'} />
+        <img src="/assets/buy-now.png" alt="buy" height={40} width={'auto'} />
       </Box>
 
       <Box
@@ -216,7 +216,7 @@ const ProductDetail = ({ id, name, price = 0, description, onAddToCart }: Produc
             flex: 1,
           }}
         >
-          <img src="/public/assets/ic-eye.png" alt="eye" width={24}/>
+          <img src="/assets/ic-eye.png" alt="eye" width={24}/>
           <Typography
             sx={{
               fontSize: '14px',
@@ -239,7 +239,7 @@ const ProductDetail = ({ id, name, price = 0, description, onAddToCart }: Produc
             flex: 1,
           }}
         >
-          <img src="/public/assets/ic-compare.png" alt="compare" width={24} />
+          <img src="/assets/ic-compare.png" alt="compare" width={24} />
           <Typography
             sx={{
               fontSize: '14px',

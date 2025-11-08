@@ -38,7 +38,7 @@ const FilterShop = () => {
           >
             Sort
           </Typography>
-          <img src="/public/assets/ic-sort.png" alt="sort-icon" width={16} height={'auto'} />
+          <img src="/assets/ic-sort.png" alt="sort-icon" width={16} height={'auto'} />
         </Box>
         <Box
           sx={{
@@ -61,7 +61,7 @@ const FilterShop = () => {
           >
             Sort
           </Typography>
-          <img src="/public/assets/ic-filter.png" alt="filter-icon" width={16} height={'auto'} />
+          <img src="/assets/ic-filter.png" alt="filter-icon" width={16} height={'auto'} />
         </Box>
       </Box>
     </Box>

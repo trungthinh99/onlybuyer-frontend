@@ -103,13 +103,13 @@ const SimilarProducts = ({ products = [] }: SimilarProductsProps) => {
                   {[1, 2, 3, 4].map((_, index) => (
                     <img
                       key={index}
-                      src="/public/assets/ic-star.png"
+                      src="/assets/ic-star.png"
                       alt="star-filled"
                       width={11}
                       height={11}
                     />
                   ))}
-                  <img src="/public/assets/ic-half-star.png" alt="star-empty" width={11} height={11} />
+                  <img src="/assets/ic-half-star.png" alt="star-empty" width={11} height={11} />
                 </Box>
                 <Typography
                   sx={{

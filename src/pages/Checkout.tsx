@@ -48,7 +48,7 @@ const Checkout = () => {
         }}
       >
         <img
-          src="/public/assets/ic-back.png"
+          src="/assets/ic-back.png"
           alt="icon-back"
           style={{ position: 'absolute', left: 0 }}
           onClick={() => navigate('/shop')}
@@ -61,7 +61,7 @@ const Checkout = () => {
       {/* Delivery Address */}
       <Box>
         <Box sx={{ display: 'flex', alignItems: 'center', mb: 1, gap: '6px' }}>
-          <img src="/public/assets/ic-delivery.png" alt="ic-delivery" width={12} height={15} />
+          <img src="/assets/ic-delivery.png" alt="ic-delivery" width={12} height={15} />
           <Typography
             sx={{
               fontWeight: 600,
@@ -194,13 +194,13 @@ const Checkout = () => {
                   {[1, 2, 3, 4].map((_, index) => (
                     <img
                       key={index}
-                      src="/public/assets/ic-star.png"
+                      src="/assets/ic-star.png"
                       alt="star-filled"
                       width={13}
                       height={13}
                     />
                   ))}
-                  <img src="/public/assets/ic-half-star.png" alt="star-empty" width={13} height={13} />
+                  <img src="/assets/ic-half-star.png" alt="star-empty" width={13} height={13} />
                 </Box>
               </Box>
 
